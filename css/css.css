@@ -108,10 +108,6 @@ header, .navbar {
     background-color: transparent;
 }
 
-.carousel-indicators .active {
-    background-color: #65DAF9;
-}
-
 .active {
     font-weight: bold;
 }
@@ -264,4 +260,34 @@ header, .navbar {
 
 .bi-tiktok {
     color: #fff;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    #carouselControl {
+        height: 30%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    #carouselControl {
+        height: 50%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #carouselControl {
+        height: 70%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #carouselControl {
+        height: 90%;
+    }
+}
+
+@media (min-width: 1400px) {
+    #carouselControl {
+        height: 100%;
+    }
 }
