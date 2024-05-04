@@ -250,3 +250,7 @@ header, .navbar {
 .bi-tiktok {
     color: #fff;
 }
+
+#footerContainer {
+    margin-top: 10%;
+}
