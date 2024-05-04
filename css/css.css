@@ -262,15 +262,25 @@ header, .navbar {
     color: #fff;
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 576px) {
     #carouselControl {
-        height: 30%;
+        height: 100%;
+    }
+
+    #mainSlider {
+        margin-top: 10%;
+        height: 30vh;
     }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
     #carouselControl {
         height: 50%;
+    }
+
+    #mainSlider {
+        margin-top: 5%;
+        height: 60vh;
     }
 }
 
